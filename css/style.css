@@ -1740,6 +1740,115 @@ sup {
   font-weight: 100;
 }
 
+
+
+/*=======================================================
+    According
+========================================================*/
+.accordion {
+  font-family: Raleway, "Helvetica Neue", "Lucida Grande", Arial, Verdana, sans-serif;
+}
+.accordion.gray-bg {
+  background: #f3f3f3;
+}
+.accordion .panel-default > .panel-heading .panel-title a:before {
+  font-family: "Ionicons";
+  content: "\f126";
+  color: #FFF;
+  padding: 0px;
+  color: #202020;
+  float: right;
+  position: absolute;
+  right: 15px;
+  font-size: 10px;
+}
+.accordion .panel-default > .panel-heading .panel-title a.collapsed:before {
+  content: "\f123";
+  font-family: "Ionicons";
+}
+.accordion .panel-default > .panel-heading {
+  background-color: #fff;
+  padding: 0px;
+  border-radius: 0px;
+  overflow: hidden;
+}
+.accordion .panel-default > .panel-heading .panel-title {
+  margin: 0px;
+}
+.accordion .panel-default > .panel-heading a {
+  text-decoration: none;
+  font-size: 14px;
+  width: 100%;
+  font-weight: 600;
+  padding: 10px;
+  padding-left: 20px;
+  line-height: 20px;
+  display: inline-block;
+  background: rgba(0,0,0,0.1);
+}
+.accordion .panel {
+  box-shadow: none;
+  border-radius: 0px;
+  margin-bottom: 15px;
+  position: relative;
+}
+.accordion .panel-body {
+  padding: 20px;
+  font-size: 14px;
+  color: #202020;
+  line-height: 22px;
+  border: 1px solid rgba(0,0,0,0.1);
+  border-top: 0px;
+}
+.accordion .panel-default>.panel-heading+.panel-collapse>.panel-body {
+  font-weight: 500;
+}
+
+
+/*=======================================================
+    Team Members
+========================================================*/
+.team.style-2 .team-small li {
+  float: left;
+  width: 16.666666%;
+  position: relative;
+  overflow: hidden;
+}
+.team.style-2 .team-small li .hover {
+  background: rgba(0,0,0,0.8);
+  font-size: 14px;
+  position: absolute;
+  padding: 10px;
+  width: 100%;
+  bottom: -50%;
+  left: 0px;
+  float: left;
+  text-align: center;
+  color: #fff;
+  z-index: 999;
+}
+.team.style-2 .team-small li:hover .hover {
+  bottom: 0px;
+}
+.team.style-2 .team-small li a i {
+  float: right;
+  color: #f6b138;
+}
+
+
+
+
+.section-a {
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	background: #fff;
+}
+
+
+
+
+
 /* ------------------------------------- */
 /* 11. Media Queries ................... */
 /* ------------------------------------- */
@@ -2089,4 +2198,6 @@ sup {
     -ms-border-radius: 0 0.3rem 0.3rem 0;
     border-radius: 0 0.3rem 0.3rem 0;
   }
+
+
 }
